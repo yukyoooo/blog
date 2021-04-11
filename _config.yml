@@ -13,7 +13,7 @@ social:
   name: Moriyama Yukyo
   links:
     - https://twitter.com/yukyoooo
-    - https://www.linkedin.com/in/BenBalter
+    - https://www.linkedin.com/in/yukyoooo
     - https://github.com/yukyoooo
 
 # THEME SETTINGS
@@ -29,7 +29,7 @@ hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/
 
 email: mrym12000@gmail.com # email for form submission
 
-twitter_username: yukyoooo # replace with your_twitter_username or comment to remove link from footer
+twitter_username: yukyooooo # replace with your_twitter_username or comment to remove link from footer
 github_username:  yukyoooo # replace with your_github_username or comment to remove link from footer
 instagram_username: yukyoooo # replace with your_instagram_username or comment to remove link from footer
 

@@ -1,3 +1,5 @@
+_00_log
+
 *.gem
 .bundle
 .sass-cache
