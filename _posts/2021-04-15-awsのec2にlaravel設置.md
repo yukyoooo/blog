@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "awsのec2にlaravelを設置する"
-featured-img: shane-rounce-205187
+featured-img: sleek
 categories: [AWS, laravel]
 ---
 

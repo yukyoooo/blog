@@ -1,10 +1,8 @@
 # SITE CONFIGURATION
-title: Sleek # your site title
-author: GitHub User # You :P
+title: yukyoooo's blog # your site title
+author: yukyoooo # You :P
 description: > # Meta description of Homepage
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  エンジニアとして働いてます。普段行っている内容の備忘録として色々メモ残そうと思ってます。
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://yukyoooo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -22,7 +20,7 @@ navigation: # Navigation links
   - {name: 'About', link: '/about'}
 
 tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
+  Nature does not hurry, yet everything is accomplished.
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
