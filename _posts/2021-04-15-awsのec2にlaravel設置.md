@@ -2,7 +2,7 @@
 layout: post
 title: "awsのec2にlaravelを設置する"
 featured-img: shane-rounce-205187
-categories: [Sample, Guides]
+categories: [AWS, laravel]
 ---
 
 ## ec2にssh接続後行うコマンド  
