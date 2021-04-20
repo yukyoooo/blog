@@ -10,19 +10,25 @@ categories: [CI/CD, github actions]
 
 
 1. AWSのec2にssh接続後、ssh鍵の生成。途中の質問は何も入力せずエンターを押す。
+
 ```
 ssh-keygen -t rsa -b 4096 -m pem -C "hoge@hoge.co.jp"
 ```
 ```
 cat id_rsa.pub >> authorized_keys
 ```
-
+<br>
+<br>
 2. github/ec2にあげるrepository/Setting/Secretに変数を登録
+
 - HOST_NAME：EC2で立ち上げたインスタンスのIPアドレス
 - USER_NAME：ユーザー名（今回はec2-user）
 - PRIVATE_KEY：秘密鍵の内容をコピーして貼り付ける
+<br>
+<br>
 
 3. github/Actions/Set up this workflow
+
 ```
 name: Laravel
  
@@ -71,11 +77,15 @@ jobs:
           echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOST_NAME} 'cd /var/www/aws-laravel/ && git pull origin master'
 ```
+<br>
+<br>
 
 4. 上記ソースの最後から2行目のcd移動先をEC2のlaravelソースのパスに変更する(var/www/laravel)の場合
 ```
 cd /var/www/aws-laravel/ -> cd /var/www/laravel/ 
 ```
+<br>
+<br>
 
 5. githubのmasterブランチにpushしてみる
 
